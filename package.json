@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html --open",
+    "prebuild": "rm -rf dist",
     "build": "parcel build src/index.html --public-url ./",
     "api": "nodemon api/api.js",
     "start": "npm run migrate && npm run api & npm run build && open dist/index.html",

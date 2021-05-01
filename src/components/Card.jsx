@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import PropTypes from 'prop-types';
-import { propTypes } from 'react-bootstrap/esm/Image';
 
 const CustomCard = ({ header, title, type, finalSound }) => {
     return (
@@ -17,7 +16,7 @@ CustomCard.propTypes = {
     header: PropTypes.string, 
     title: PropTypes.string, 
     type: PropTypes.string, 
-    finalSound: propTypes.string,
+    finalSound: PropTypes.string,
 }
 
 export default CustomCard;
