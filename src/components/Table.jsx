@@ -1,11 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Table from 'react-bootstrap/Table'
+import classnames from 'classnames';
+
 
 const CustomCard = ({ verb, past, pastParticipe, meaning, finalSound, darkMode }) => {
+    const textClassNames = classnames( {
+        'text-light': darkMode, 
+        'text-primary': !darkMode
+    });
     return (
 
-        <Table striped bordered hover variant={darkMode ? "dark" : "light"} >
+        <Table className={textClassNames} striped bordered hover variant={darkMode ? "dark" : "light"} >
             <thead>
                 <tr>
                     <th colSpan="2">{meaning}</th>

@@ -11,17 +11,30 @@ import classnames from 'classnames';
 const Navigation = ({ darkMode, setDarkMode }) => {
     const navClassNames = classnames({
         "dark": darkMode,
-        "light": !darkMode
+        "light": !darkMode,
+        'text-light': darkMode, 
+        'text-primary': !darkMode
     });
+
+    const buttonClassNames = classnames({
+        "primary": !darkMode,
+        "light": darkMode,
+    })
+
+    const textClassNames = classnames( {
+        'text-light': darkMode, 
+        'text-primary': !darkMode
+    });
+    
     return (
         <Navbar bg={navClassNames} expand="xl">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand className={textClassNames} href="#home">
                 <FontAwesomeIcon className="mr-2" icon={faRandom} />
                 Random Verb
             </Navbar.Brand>
             <Nav>
                 <Form inline>
-                    <Button variant={navClassNames} onClick={() => {
+                    <Button variant={buttonClassNames} onClick={() => {
                         setDarkMode(prev => !prev);
                     }}>
                         <FontAwesomeIcon icon={faAdjust} />
