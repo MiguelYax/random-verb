@@ -2,189 +2,189 @@
     {
         "verb": "Wake up",
         "past": "Woke up",
-        "pastParticipe": "Woken up",
+        "pastParticiple": "Woken up",
         "meaning": "Despertar",
         "finalSound": ""
     },
     {
         "verb": "Take a shower",
         "past": "Took a shower",
-        "pastParticipe": "Taken a shower",
+        "pastParticiple": "Taken a shower",
         "meaning": "Tomar un baño",
         "finalSound": ""
     },
     {
         "verb": "Brush",
         "past": "Brused",
-        "pastParticipe": "Brushed",
+        "pastParticiple": "Brushed",
         "meaning": "Cepillar",
         "finalSound": "T"
     },
     {
         "verb": "Get dressed",
         "past": "Got dressed",
-        "pastParticipe": "Got dressed",
+        "pastParticiple": "Got dressed",
         "meaning": "Vestirse",
         "finalSound": "T"
     },
     {
         "verb": "Have breakfast",
         "past": "Had breakfast",
-        "pastParticipe": "Had breakfast",
+        "pastParticiple": "Had breakfast",
         "meaning": "Desayunar",
         "finalSound": ""
     },
     {
         "verb": "Have dinner",
         "past": "Had dinner",
-        "pastParticipe": "Had dinner",
+        "pastParticiple": "Had dinner",
         "meaning": "Cenar",
         "finalSound": ""
     },
     {
         "verb": "Have lunch",
         "past": "Had lunch",
-        "pastParticipe": "Had lunch",
+        "pastParticiple": "Had lunch",
         "meaning": "Almorzar",
         "finalSound": ""
     },
     {
         "verb": "Go",
         "past": "Went",
-        "pastParticipe": "Gone",
+        "pastParticiple": "Gone",
         "meaning": "Ir",
         "finalSound": ""
     },
     {
         "verb": "Check",
         "past": "Checked",
-        "pastParticipe": "Checked",
+        "pastParticiple": "Checked",
         "meaning": "Revisar",
         "finalSound": "T"
     },
     {
         "verb": "Work",
         "past": "Worked",
-        "pastParticipe": "Worked",
+        "pastParticiple": "Worked",
         "meaning": "Trabajar",
         "finalSound": "T"
     },
     {
         "verb": "Study",
         "past": "Studied",
-        "pastParticipe": "Studied",
+        "pastParticiple": "Studied",
         "meaning": "Estudiar",
         "finalSound": "D"
     },
     {
         "verb": "Watch",
         "past": "Watched",
-        "pastParticipe": "Watched",
+        "pastParticiple": "Watched",
         "meaning": "Mirar, observar",
         "finalSound": "T"
     },
     {
         "verb": "Do",
         "past": "Did",
-        "pastParticipe": "Done",
+        "pastParticiple": "Done",
         "meaning": "Hacer",
         "finalSound": ""
     },
     {
         "verb": "Make",
         "past": "Made",
-        "pastParticipe": "Made",
+        "pastParticiple": "Made",
         "meaning": "Hacer",
         "finalSound": ""
     },
     {
         "verb": "Chat",
         "past": "Chatted",
-        "pastParticipe": "Chatted",
+        "pastParticiple": "Chatted",
         "meaning": "Chatear",
         "finalSound": "Id"
     },
     {
         "verb": "Text",
         "past": "Texted",
-        "pastParticipe": "Texted",
+        "pastParticiple": "Texted",
         "meaning": "Textear",
         "finalSound": "Id"
     },
     {
         "verb": "Play",
         "past": "Played",
-        "pastParticipe": "Played",
+        "pastParticiple": "Played",
         "meaning": "Jugar",
         "finalSound": "D"
     },
     {
         "verb": "Cook",
         "past": "Cooked",
-        "pastParticipe": "Cooked",
+        "pastParticiple": "Cooked",
         "meaning": "Cocinar",
         "finalSound": "T"
     },
     {
         "verb": "Call",
         "past": "Called",
-        "pastParticipe": "Called",
+        "pastParticiple": "Called",
         "meaning": "Llamar",
         "finalSound": "D"
     },
     {
         "verb": "Come back",
         "past": "Came back",
-        "pastParticipe": "Come back",
+        "pastParticiple": "Come back",
         "meaning": "Regresar",
         "finalSound": ""
     },
     {
         "verb": "Eat",
         "past": "Ate",
-        "pastParticipe": "Eaten",
+        "pastParticiple": "Eaten",
         "meaning": "Comer",
         "finalSound": ""
     },
     {
         "verb": "Drive",
         "past": "Drove",
-        "pastParticipe": "Driven",
+        "pastParticiple": "Driven",
         "meaning": "Conducir",
         "finalSound": ""
     },
     {
         "verb": "Read",
         "past": "Read",
-        "pastParticipe": "Read",
+        "pastParticiple": "Read",
         "meaning": "Leer",
         "finalSound": ""
     },
     {
         "verb": "Drink",
         "past": "Drank",
-        "pastParticipe": "Drunk",
+        "pastParticiple": "Drunk",
         "meaning": "Beber",
         "finalSound": ""
     },
     {
         "verb": "Listen",
         "past": "Listened",
-        "pastParticipe": "Listened",
+        "pastParticiple": "Listened",
         "meaning": "Escuchar",
         "finalSound": "D"
     },
     {
         "verb": "Clean",
         "past": "Cleaned",
-        "pastParticipe": "Cleaned",
+        "pastParticiple": "Cleaned",
         "meaning": "Limpiar",
         "finalSound": "D"
     },
     {
         "verb": "Sleep",
         "past": "Slept",
-        "pastParticipe": "Slept",
+        "pastParticiple": "Slept",
         "meaning": "Dormir",
         "finalSound": ""
     }

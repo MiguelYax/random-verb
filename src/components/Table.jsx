@@ -4,7 +4,7 @@ import Table from 'react-bootstrap/Table'
 import classnames from 'classnames';
 
 
-const CustomCard = ({ verb, past, pastParticipe, meaning, finalSound, darkMode }) => {
+const CustomCard = ({ verb, past, pastParticiple, meaning, finalSound, darkMode }) => {
     const textClassNames = classnames( {
         'text-light': darkMode, 
         'text-primary': !darkMode
@@ -27,8 +27,8 @@ const CustomCard = ({ verb, past, pastParticipe, meaning, finalSound, darkMode }
                     <td>{past}</td>
                 </tr>
                 <tr>
-                    <td>Past Participe</td>
-                    <td>{pastParticipe}</td>
+                    <td>Past participle</td>
+                    <td>{pastParticiple}</td>
                 </tr>
                 {finalSound &&
                     <tr>
@@ -45,7 +45,7 @@ const CustomCard = ({ verb, past, pastParticipe, meaning, finalSound, darkMode }
 CustomCard.propTypes = {
     verb: PropTypes.string,
     past: PropTypes.string,
-    pastParticipe: PropTypes.string,
+    pastParticiple: PropTypes.string,
     meaning: PropTypes.string,
     finalSound: PropTypes.string,
     darkMode: PropTypes.bool,
