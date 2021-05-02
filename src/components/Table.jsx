@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Table from 'react-bootstrap/Table'
 
-const CustomCard = ({ verb, past, pastParticipe, meaning, finalSound }) => {
+const CustomCard = ({ verb, past, pastParticipe, meaning, finalSound, darkMode }) => {
     return (
 
-        <Table striped bordered hover variant="dark" >
+        <Table striped bordered hover variant={darkMode ? "dark" : "light"} >
             <thead>
                 <tr>
                     <th colSpan="2">{meaning}</th>
@@ -42,6 +42,7 @@ CustomCard.propTypes = {
     pastParticipe: PropTypes.string,
     meaning: PropTypes.string,
     finalSound: PropTypes.string,
+    darkMode: PropTypes.bool,
 }
 
 export default CustomCard;

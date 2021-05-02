@@ -6,27 +6,40 @@ import Button from 'react-bootstrap/Button';
 import Table from './Table';
 import { getRandomVerb } from './Random';
 import Navigation from './Navigation';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSyncAlt } from '@fortawesome/free-solid-svg-icons'
 import './app.scss'
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import classnames from 'classnames';
+
+
 
 const App = () => {
     const [verb, setVerb] = useState(getRandomVerb());
-    return (<>
-        <Navigation />
-        <Container className="vh-100 " >
-            <Row className="h-75 justify-content-md-center">
-                <Col md={10} lg={10} >
-                    <Table {...verb} />
-                </Col>
-            </Row>
-            <Row md={10} lg={10} className="justify-content-center">
-                <Button onClick={() => {
-                    setVerb(getRandomVerb());
-                }} > Next </Button>
-            </Row>
-        </Container>
-    </>
+    const [darkMode, setDarkMode] = useState(false);
+    const containerClassNames = classnames(
+        "vh-100",
+        {
+            "bg-dark": darkMode,
+        }
+    )
+    return (
+        <>
+            <Navigation darkMode={darkMode} setDarkMode={setDarkMode} />
+            <Container className={containerClassNames} >
+                <Row className="h-75 pt-5 justify-content-md-center">
+                    <Col md={10} lg={10} >
+                        <Table darkMode={darkMode} {...verb} />
+                    </Col>
+                </Row>
+                <Row md={10} lg={10} className="pt-5 justify-content-center">
+                    <Button variant={darkMode ? "dark" : "primary"} onClick={() => {
+                        setVerb(getRandomVerb());
+                    }} > Randomize
+                    <FontAwesomeIcon className="ml-2" icon={faSyncAlt} />
+                    </Button>
+                </Row>
+            </Container>
+        </>
     )
 }
 

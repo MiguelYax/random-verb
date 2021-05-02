@@ -1,20 +1,40 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faRandom, faAdjust } from '@fortawesome/free-solid-svg-icons'
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
 
-const Navigation = () => {
+const Navigation = ({ darkMode, setDarkMode }) => {
+    const navClassNames = classnames({
+        "dark": darkMode,
+        "light": !darkMode
+    });
     return (
-        <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">Random Verb</Navbar.Brand>
-            {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-            {/* <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
-                </Nav>
-            </Navbar.Collapse> */}
+        <Navbar bg={navClassNames} expand="xl">
+            <Navbar.Brand href="#home">
+                <FontAwesomeIcon className="mr-2" icon={faRandom} />
+                Random Verb
+            </Navbar.Brand>
+            <Nav>
+                <Form inline>
+                    <Button variant={navClassNames} onClick={() => {
+                        setDarkMode(prev => !prev);
+                    }}>
+                        <FontAwesomeIcon icon={faAdjust} />
+                    </Button>
+                </Form>
+            </Nav>
         </Navbar>
     )
+}
+
+Navigation.propTypes = {
+    darkMode: PropTypes.bool,
+    setDarkMode: PropTypes.func,
 }
 
 export default Navigation;
