@@ -3,3 +3,29 @@
 body {
     background-color: #003049;
 }
+
+
+@media screen and (min-width: 1200px) {
+    body {
+      font-size: 90px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+      font-size: 70px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+      font-size: 50px;
+    }
+}
+  
+@media screen and (min-width: 576px) {
+    body {
+      font-size: 40px;
+    }
+}
