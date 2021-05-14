@@ -1,6 +1,6 @@
 # Random Verb
 
-Random verb with past and past participe.
+Random verb with past and past participle.
 
 I am an english learner, but I want an easy way to memorize verbs without write on a phisical notebook, for that reason I will be use and this repository. 
 
@@ -11,3 +11,7 @@ I hope It could help you as well.
 # Contribution
 
 All help are welcome! If you have an idea to improve then let me know or you feel free to open a pull request.
+
+# For developers
+
+Please check the [Documentation](DEVELOP.md).

@@ -28,8 +28,8 @@ const App = () => {
         "light": darkMode,
     })
 
-    const textClassNames = classnames( {
-        'text-light': darkMode, 
+    const textClassNames = classnames({
+        'text-light': darkMode,
         'text-primary': !darkMode
     });
 
@@ -51,7 +51,7 @@ const App = () => {
                     </Button>
                 </Row>
                 <Row className=" pt-3 justify-content-center">
-                     <div className={textClassNames}>Version {version} </div>  
+                    <div className={textClassNames}>Version {version} </div>
                 </Row>
             </Container>
         </>

@@ -4,14 +4,16 @@
   "description": "Random verb with past and past participe. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "parcel src/index.html --open",
     "prebuild": "rm -rf dist",
     "build": "parcel build src/index.html --public-url ./",
     "api": "nodemon api/api.js",
     "start": "npm run migrate && npm run api & npm run build && open dist/index.html",
     "watch": "npm run migrate && npm run api & npm run dev",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "deploy": "npm run build && git subtree push --prefix=dist origin gh-pages",
+    "coverage": "jest  --coverage"
   },
   "repository": {
     "type": "git",
@@ -32,10 +34,18 @@
   },
   "homepage": "https://github.com/MiguelYax/random-verb#readme",
   "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "babel-jest": "^26.6.3",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2",
     "eslint": "^7.25.0",
     "eslint-plugin-react": "^7.23.2",
     "jest": "^26.6.3",
     "parcel-bundler": "^1.12.5",
+    "react-test-renderer": "^17.0.2",
     "sass": "^1.32.12"
   },
   "dependencies": {

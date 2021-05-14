@@ -34,7 +34,7 @@ const Navigation = ({ darkMode, setDarkMode }) => {
             </Navbar.Brand>
             <Nav>
                 <Form inline>
-                    <Button variant={buttonClassNames} onClick={() => {
+                    <Button id="darkModeButton" variant={buttonClassNames} onClick={() => {
                         setDarkMode(prev => !prev);
                     }}>
                         <FontAwesomeIcon icon={faAdjust} />
