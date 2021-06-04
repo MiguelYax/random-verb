@@ -1,6 +1,6 @@
 {
   "name": "random-verb",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Random verb with past and past participe. ",
   "main": "index.js",
   "scripts": {
