@@ -12,7 +12,7 @@
     "start": "npm run migrate && npm run api & npm run build && open dist/index.html",
     "watch": "npm run migrate && npm run api & npm run dev",
     "lint": "eslint .",
-    "deploy": "gh-pages --dist dist --branch release",
+    "deploy": "npm run build && gh-pages --dist dist --branch release",
     "coverage": "jest  --coverage"
   },
   "repository": {
