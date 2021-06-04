@@ -191,378 +191,378 @@
     {
         "verb": "Ride",
         "past": "Rode",
-        "pastParticipe": "Ridden",
+        "pastParticiple": "Ridden",
         "meaning": "Montar",
         "finalSound": ""
     },
     {
         "verb": "Get",
         "past": "Got",
-        "pastParticipe": "Gotten",
+        "pastParticiple": "Gotten",
         "meaning": "Obtener",
         "finalSound": ""
     },
     {
         "verb": "Give",
         "past": "Gave",
-        "pastParticipe": "Given",
+        "pastParticiple": "Given",
         "meaning": "Dar",
         "finalSound": ""
     },
     {
         "verb": "See",
         "past": "Saw",
-        "pastParticipe": "Seen",
+        "pastParticiple": "Seen",
         "meaning": "Ver",
         "finalSound": ""
     },
     {
         "verb": "Look",
         "past": "Looked",
-        "pastParticipe": "Looked",
+        "pastParticiple": "Looked",
         "meaning": "Observar",
         "finalSound": "T"
     },
     {
         "verb": "Take",
         "past": "Took",
-        "pastParticipe": "Taken",
+        "pastParticiple": "Taken",
         "meaning": "Tomar",
         "finalSound": ""
     },
     {
         "verb": "Think",
         "past": "Thought",
-        "pastParticipe": "Thought",
+        "pastParticiple": "Thought",
         "meaning": "Pensar",
         "finalSound": ""
     },
     {
         "verb": "Wash",
         "past": "Washed",
-        "pastParticipe": "Washed",
+        "pastParticiple": "Washed",
         "meaning": "Lavar",
         "finalSound": "T"
     },
     {
         "verb": "Have",
         "past": "Had",
-        "pastParticipe": "Had",
+        "pastParticiple": "Had",
         "meaning": "Tener",
         "finalSound": ""
     },
     {
         "verb": "Find",
         "past": "Found",
-        "pastParticipe": "Found",
+        "pastParticiple": "Found",
         "meaning": "Encontrar",
         "finalSound": ""
     },
     {
         "verb": "Learn",
         "past": "Learned",
-        "pastParticipe": "Learned",
+        "pastParticiple": "Learned",
         "meaning": "Aprender",
         "finalSound": ""
     },
     {
         "verb": "Write",
         "past": "Wrote",
-        "pastParticipe": "Written",
+        "pastParticiple": "Written",
         "meaning": "Escribir",
         "finalSound": ""
     },
     {
         "verb": "Walk",
         "past": "Walked",
-        "pastParticipe": "Walked",
+        "pastParticiple": "Walked",
         "meaning": "Caminar",
         "finalSound": "T"
     },
     {
         "verb": "Can",
         "past": "Could",
-        "pastParticipe": "",
+        "pastParticiple": "",
         "meaning": "Poder",
         "finalSound": ""
     },
     {
         "verb": "Want",
         "past": "Wanted",
-        "pastParticipe": "Wanted",
+        "pastParticiple": "Wanted",
         "meaning": "Querer,Desear",
         "finalSound": "Id"
     },
     {
         "verb": "Need",
         "past": "Needed",
-        "pastParticipe": "Needed",
+        "pastParticiple": "Needed",
         "meaning": "Necesitar",
         "finalSound": "Id"
     },
     {
         "verb": "Like",
         "past": "Liked",
-        "pastParticipe": "Liked",
+        "pastParticiple": "Liked",
         "meaning": "Gustar",
         "finalSound": "T"
     },
     {
         "verb": "Talk",
         "past": "Talked",
-        "pastParticipe": "Talked",
+        "pastParticiple": "Talked",
         "meaning": "Conversar",
         "finalSound": "T"
     },
     {
         "verb": "Speak",
         "past": "Spoke",
-        "pastParticipe": "Spoken",
+        "pastParticiple": "Spoken",
         "meaning": "Hablar",
         "finalSound": ""
     },
     {
         "verb": "Remember",
         "past": "Remembered",
-        "pastParticipe": "Remembered",
+        "pastParticiple": "Remembered",
         "meaning": "Recordar",
         "finalSound": "D"
     },
     {
         "verb": "Understand",
         "past": "Understood",
-        "pastParticipe": "Understood",
+        "pastParticiple": "Understood",
         "meaning": "Entender",
         "finalSound": ""
     },
     {
         "verb": "Spend",
         "past": "Spent",
-        "pastParticipe": "Spent",
+        "pastParticiple": "Spent",
         "meaning": "Gastar",
         "finalSound": ""
     },
     {
         "verb": "Try",
         "past": "Tried",
-        "pastParticipe": "Tired",
+        "pastParticiple": "Tired",
         "meaning": "Intentar",
         "finalSound": ""
     },
     {
         "verb": "Swim",
         "past": "Swam",
-        "pastParticipe": "Swum",
+        "pastParticiple": "Swum",
         "meaning": "Nadar",
         "finalSound": ""
     },
     {
         "verb": "Start",
         "past": "Started",
-        "pastParticipe": "Started",
+        "pastParticiple": "Started",
         "meaning": "empezar",
         "finalSound": "Id"
     },
     {
         "verb": "Say",
         "past": "Said",
-        "pastParticipe": "Said",
+        "pastParticiple": "Said",
         "meaning": "Decir",
         "finalSound": ""
     },
     {
         "verb": "Tell",
         "past": "Told",
-        "pastParticipe": "Told",
+        "pastParticiple": "Told",
         "meaning": "Narrar,Contar",
         "finalSound": ""
     },
     {
         "verb": "Buy",
         "past": "Bought",
-        "pastParticipe": "Bought",
+        "pastParticiple": "Bought",
         "meaning": "comprar",
         "finalSound": ""
     },
     {
         "verb": "Bring",
         "past": "Brought",
-        "pastParticipe": "Brought",
+        "pastParticiple": "Brought",
         "meaning": "Traer",
         "finalSound": ""
     },
     {
         "verb": "Change",
         "past": "Changed",
-        "pastParticipe": "Changed",
+        "pastParticiple": "Changed",
         "meaning": "Cambiar",
         "finalSound": ""
     },
     {
         "verb": "Cut",
         "past": "Cut",
-        "pastParticipe": "Cut",
+        "pastParticiple": "Cut",
         "meaning": "Cortar",
         "finalSound": ""
     },
     {
         "verb": "Fall",
         "past": "Fell",
-        "pastParticipe": "Fallen",
+        "pastParticiple": "Fallen",
         "meaning": "Caer",
         "finalSound": ""
     },
     {
         "verb": "Fix",
         "past": "Fixed",
-        "pastParticipe": "Fixed",
+        "pastParticiple": "Fixed",
         "meaning": "Reparar",
         "finalSound": ""
     },
     {
         "verb": "Forget",
         "past": "Forgot",
-        "pastParticipe": "Forgotten",
+        "pastParticiple": "Forgotten",
         "meaning": "Olvidar",
         "finalSound": ""
     },
     {
         "verb": "Lose",
         "past": "Lost",
-        "pastParticipe": "Lost",
+        "pastParticiple": "Lost",
         "meaning": "Perder",
         "finalSound": ""
     },
     {
         "verb": "Open",
         "past": "Opened",
-        "pastParticipe": "Opened",
+        "pastParticiple": "Opened",
         "meaning": "Abrir",
         "finalSound": "D"
     },
     {
         "verb": "Close",
         "past": "Closed",
-        "pastParticipe": "Closed",
+        "pastParticiple": "Closed",
         "meaning": "Cerrar",
         "finalSound": "D"
     },
     {
         "verb": "Pay",
         "past": "Paid",
-        "pastParticipe": "Paid",
+        "pastParticiple": "Paid",
         "meaning": "Pagar",
         "finalSound": ""
     },
     {
         "verb": "Put",
         "past": "Put",
-        "pastParticipe": "Put",
+        "pastParticiple": "Put",
         "meaning": "Poner",
         "finalSound": ""
     },
     {
         "verb": "Run",
         "past": "Ran",
-        "pastParticipe": "Run",
+        "pastParticiple": "Run",
         "meaning": "Correr",
         "finalSound": ""
     },
     {
         "verb": "Send",
         "past": "Sent",
-        "pastParticipe": "Sent",
+        "pastParticiple": "Sent",
         "meaning": "Enviar",
         "finalSound": ""
     },
     {
         "verb": "Feel",
         "past": "Felt",
-        "pastParticipe": "Felt",
+        "pastParticiple": "Felt",
         "meaning": "Sentir",
         "finalSound": ""
     },
     {
         "verb": "Teach",
         "past": "Taught",
-        "pastParticipe": "Taught",
+        "pastParticiple": "Taught",
         "meaning": "Enseñar",
         "finalSound": ""
     },
     {
         "verb": "Wait",
         "past": "Waited",
-        "pastParticipe": "Waited",
+        "pastParticiple": "Waited",
         "meaning": "Esperar",
         "finalSound": "Id"
     },
     {
         "verb": "Fly",
         "past": "Flew",
-        "pastParticipe": "Flown",
+        "pastParticiple": "Flown",
         "meaning": "Volar",
         "finalSound": ""
     },
     {
         "verb": "Leave",
         "past": "Left",
-        "pastParticipe": "Left",
+        "pastParticiple": "Left",
         "meaning": "Dejar,Salir",
         "finalSound": ""
     },
     {
         "verb": "Know",
         "past": "Knew",
-        "pastParticipe": "Known",
+        "pastParticiple": "Known",
         "meaning": "Saber",
         "finalSound": ""
     },
     {
         "verb": "Believe",
         "past": "Believed",
-        "pastParticipe": "Believed",
+        "pastParticiple": "Believed",
         "meaning": "Creer",
         "finalSound": "D"
     },
     {
         "verb": "Become",
         "past": "Became",
-        "pastParticipe": "Become",
+        "pastParticiple": "Become",
         "meaning": "Llegar a ser",
         "finalSound": ""
     },
     {
         "verb": "Ask",
         "past": "Asked",
-        "pastParticipe": "Asked",
+        "pastParticiple": "Asked",
         "meaning": "Pedir, Preguntar",
         "finalSound": ""
     },
     {
         "verb": "Hear",
         "past": "Heard",
-        "pastParticipe": "Heard",
+        "pastParticiple": "Heard",
         "meaning": "Escuchar",
         "finalSound": ""
     },
     {
         "verb": "Use",
         "past": "Used",
-        "pastParticipe": "Used",
+        "pastParticiple": "Used",
         "meaning": "Usar",
         "finalSound": "D"
     },
     {
         "verb": "Sing",
         "past": "Sang",
-        "pastParticipe": "Sung",
+        "pastParticiple": "Sung",
         "meaning": "Cantar",
         "finalSound": ""
     },
     {
         "verb": "Pick up",
         "past": "Picked up",
-        "pastParticipe": "Picked up",
+        "pastParticiple": "Picked up",
         "meaning": "Recoger",
         "finalSound": "T"
     }
