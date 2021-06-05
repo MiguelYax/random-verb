@@ -10,7 +10,7 @@ const Speech = ({
     lang = 'en-US'
 }) => {
     return (
-        <Button id="darkModeButton" onClick={() => {
+        <Button onClick={() => {
             let utterance = new SpeechSynthesisUtterance(text);
             Object.apply(utterance, { volume, lang });
 
