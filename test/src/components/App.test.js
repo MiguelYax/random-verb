@@ -1,9 +1,13 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { configure, shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import App from '../../../src/components/App';
+import { getRandomVerb } from '../../../src/components/Random';
 
-let App;
+configure({ adapter: new Adapter() });
+
 jest.mock('../../../src/components/Random', () => ({
-    getRandomVerb: () => ({
+    getRandomVerb: jest.fn().mockReturnValue({
         "verb": "Wake up",
         "past": "Woke up",
         "pastParticiple": "Woken up",
@@ -14,10 +18,18 @@ jest.mock('../../../src/components/Random', () => ({
 
 describe('when component src/components/App.jsx is used', () => {
     beforeEach(() => {
-        App = require('../../../src/components/App').default;
-    })
+        getRandomVerb.mockReset()
+    });
+
     it('shold be render main components', () => {
-        const app = renderer.create(<App />).toJSON();
-        expect(app).toMatchSnapshot();
+        const shallowApp = shallow(<App />);
+        expect(shallowApp).toMatchSnapshot();
+    });
+
+    it('shold be render main components', () => {
+        const shallowApp = shallow(<App />);
+        const shallowButton = shallowApp.find('Button');
+        shallowButton.simulate('click');
+        expect(getRandomVerb).toHaveBeenCalledTimes(3);
     });
 });

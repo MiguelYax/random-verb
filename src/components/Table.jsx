@@ -5,7 +5,7 @@ import classnames from 'classnames';
 import Speach from './Speech';
 
 
-const CustomCard = ({ verb, past, pastParticiple, meaning, finalSound, darkMode }) => {
+const CustomTable = ({ verb, past, pastParticiple, meaning, finalSound, darkMode }) => {
     const textClassNames = classnames({
         'text-light': darkMode,
         'text-primary': !darkMode
@@ -48,7 +48,7 @@ const CustomCard = ({ verb, past, pastParticiple, meaning, finalSound, darkMode 
     )
 }
 
-CustomCard.propTypes = {
+CustomTable.propTypes = {
     verb: PropTypes.string,
     past: PropTypes.string,
     pastParticiple: PropTypes.string,
@@ -57,4 +57,4 @@ CustomCard.propTypes = {
     darkMode: PropTypes.bool,
 }
 
-export default CustomCard;
+export default CustomTable;

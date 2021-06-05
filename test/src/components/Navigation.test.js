@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount, shallow } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
@@ -21,7 +21,7 @@ describe('when component src/components/Navigation.jsx is used', () => {
     });
     describe('when darkMode button is cliked', () => {
         it('should be triger change value for darkMode', () => {
-            const setDarkMode = jest.fn();
+            const setDarkMode = jest.fn( );
             const shallowNavigation =  shallow(<Navigation darkMode={false} setDarkMode={setDarkMode} />);
             const darkModeButton = shallowNavigation.find('#darkModeButton');
 
