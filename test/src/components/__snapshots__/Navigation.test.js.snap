@@ -1,190 +1,191 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`when component src/components/App.jsx is used shold be render main components 1`] = `
-<nav
-  className="navbar navbar-expand-xl navbar-light bg-dark text-light"
+exports[`when component src/components/Navigation.jsx is used when Navigation called with darkMode equal false should be render the light mode  1`] = `
+<Navbar
+  bg="light text-primary"
+  collapseOnSelect={false}
+  expand="xl"
+  variant="light"
 >
-  <a
-    className="text-light navbar-brand"
+  <NavbarBrand
+    className="text-primary"
     href="#home"
   >
-    <svg
-      aria-hidden="true"
-      className="svg-inline--fa fa-random fa-w-16 mr-2"
-      data-icon="random"
-      data-prefix="fas"
-      focusable="false"
-      role="img"
-      style={Object {}}
-      viewBox="0 0 512 512"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M504.971 359.029c9.373 9.373 9.373 24.569 0 33.941l-80 79.984c-15.01 15.01-40.971 4.49-40.971-16.971V416h-58.785a12.004 12.004 0 0 1-8.773-3.812l-70.556-75.596 53.333-57.143L352 336h32v-39.981c0-21.438 25.943-31.998 40.971-16.971l80 79.981zM12 176h84l52.781 56.551 53.333-57.143-70.556-75.596A11.999 11.999 0 0 0 122.785 96H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12zm372 0v39.984c0 21.46 25.961 31.98 40.971 16.971l80-79.984c9.373-9.373 9.373-24.569 0-33.941l-80-79.981C409.943 24.021 384 34.582 384 56.019V96h-58.785a12.004 12.004 0 0 0-8.773 3.812L96 336H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h110.785c3.326 0 6.503-1.381 8.773-3.812L352 176h32z"
-        fill="currentColor"
-        style={Object {}}
-      />
-    </svg>
+    <FontAwesomeIcon
+      border={false}
+      className="mr-2"
+      fixedWidth={false}
+      flip={null}
+      icon={
+        Object {
+          "icon": Array [
+            512,
+            512,
+            Array [],
+            "f074",
+            "M504.971 359.029c9.373 9.373 9.373 24.569 0 33.941l-80 79.984c-15.01 15.01-40.971 4.49-40.971-16.971V416h-58.785a12.004 12.004 0 0 1-8.773-3.812l-70.556-75.596 53.333-57.143L352 336h32v-39.981c0-21.438 25.943-31.998 40.971-16.971l80 79.981zM12 176h84l52.781 56.551 53.333-57.143-70.556-75.596A11.999 11.999 0 0 0 122.785 96H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12zm372 0v39.984c0 21.46 25.961 31.98 40.971 16.971l80-79.984c9.373-9.373 9.373-24.569 0-33.941l-80-79.981C409.943 24.021 384 34.582 384 56.019V96h-58.785a12.004 12.004 0 0 0-8.773 3.812L96 336H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h110.785c3.326 0 6.503-1.381 8.773-3.812L352 176h32z",
+          ],
+          "iconName": "random",
+          "prefix": "fas",
+        }
+      }
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size={null}
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
     Random Verb
-  </a>
-  <div
-    className="navbar-nav"
-    onKeyDown={[Function]}
+  </NavbarBrand>
+  <Nav
+    fill={false}
+    justify={false}
   >
-    <form
-      className="form-inline"
+    <Form
+      inline={true}
     >
-      <button
-        className="btn btn-light"
+      <Button
+        active={false}
         disabled={false}
+        id="darkModeButton"
         onClick={[Function]}
-        type="button"
+        variant="primary"
       >
-        <svg
-          aria-hidden="true"
-          className="svg-inline--fa fa-adjust fa-w-16 "
-          data-icon="adjust"
-          data-prefix="fas"
-          focusable="false"
-          role="img"
-          style={Object {}}
-          viewBox="0 0 512 512"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"
-            fill="currentColor"
-            style={Object {}}
-          />
-        </svg>
-      </button>
-    </form>
-  </div>
-</nav>
-`;
-
-exports[`when component src/components/Navigation.jsx is used when Navigation called with darkMode equal false shold be render the light mode  1`] = `
-<nav
-  className="navbar navbar-expand-xl navbar-light bg-light text-primary"
->
-  <a
-    className="text-primary navbar-brand"
-    href="#home"
-  >
-    <svg
-      aria-hidden="true"
-      className="svg-inline--fa fa-random fa-w-16 mr-2"
-      data-icon="random"
-      data-prefix="fas"
-      focusable="false"
-      role="img"
-      style={Object {}}
-      viewBox="0 0 512 512"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M504.971 359.029c9.373 9.373 9.373 24.569 0 33.941l-80 79.984c-15.01 15.01-40.971 4.49-40.971-16.971V416h-58.785a12.004 12.004 0 0 1-8.773-3.812l-70.556-75.596 53.333-57.143L352 336h32v-39.981c0-21.438 25.943-31.998 40.971-16.971l80 79.981zM12 176h84l52.781 56.551 53.333-57.143-70.556-75.596A11.999 11.999 0 0 0 122.785 96H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12zm372 0v39.984c0 21.46 25.961 31.98 40.971 16.971l80-79.984c9.373-9.373 9.373-24.569 0-33.941l-80-79.981C409.943 24.021 384 34.582 384 56.019V96h-58.785a12.004 12.004 0 0 0-8.773 3.812L96 336H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h110.785c3.326 0 6.503-1.381 8.773-3.812L352 176h32z"
-        fill="currentColor"
-        style={Object {}}
-      />
-    </svg>
-    Random Verb
-  </a>
-  <div
-    className="navbar-nav"
-    onKeyDown={[Function]}
-  >
-    <form
-      className="form-inline"
-    >
-      <button
-        className="btn btn-primary"
-        disabled={false}
-        onClick={[Function]}
-        type="button"
-      >
-        <svg
-          aria-hidden="true"
-          className="svg-inline--fa fa-adjust fa-w-16 "
-          data-icon="adjust"
-          data-prefix="fas"
-          focusable="false"
-          role="img"
-          style={Object {}}
-          viewBox="0 0 512 512"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"
-            fill="currentColor"
-            style={Object {}}
-          />
-        </svg>
-      </button>
-    </form>
-  </div>
-</nav>
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                512,
+                512,
+                Array [],
+                "f042",
+                "M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z",
+              ],
+              "iconName": "adjust",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          swapOpacity={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </Button>
+    </Form>
+  </Nav>
+</Navbar>
 `;
 
 exports[`when component src/components/Navigation.jsx is used when Navigation called with darkMode equal true shold be render the dark mode  1`] = `
-<nav
-  className="navbar navbar-expand-xl navbar-light bg-dark text-light"
+<Navbar
+  bg="dark text-light"
+  collapseOnSelect={false}
+  expand="xl"
+  variant="light"
 >
-  <a
-    className="text-light navbar-brand"
+  <NavbarBrand
+    className="text-light"
     href="#home"
   >
-    <svg
-      aria-hidden="true"
-      className="svg-inline--fa fa-random fa-w-16 mr-2"
-      data-icon="random"
-      data-prefix="fas"
-      focusable="false"
-      role="img"
-      style={Object {}}
-      viewBox="0 0 512 512"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M504.971 359.029c9.373 9.373 9.373 24.569 0 33.941l-80 79.984c-15.01 15.01-40.971 4.49-40.971-16.971V416h-58.785a12.004 12.004 0 0 1-8.773-3.812l-70.556-75.596 53.333-57.143L352 336h32v-39.981c0-21.438 25.943-31.998 40.971-16.971l80 79.981zM12 176h84l52.781 56.551 53.333-57.143-70.556-75.596A11.999 11.999 0 0 0 122.785 96H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12zm372 0v39.984c0 21.46 25.961 31.98 40.971 16.971l80-79.984c9.373-9.373 9.373-24.569 0-33.941l-80-79.981C409.943 24.021 384 34.582 384 56.019V96h-58.785a12.004 12.004 0 0 0-8.773 3.812L96 336H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h110.785c3.326 0 6.503-1.381 8.773-3.812L352 176h32z"
-        fill="currentColor"
-        style={Object {}}
-      />
-    </svg>
+    <FontAwesomeIcon
+      border={false}
+      className="mr-2"
+      fixedWidth={false}
+      flip={null}
+      icon={
+        Object {
+          "icon": Array [
+            512,
+            512,
+            Array [],
+            "f074",
+            "M504.971 359.029c9.373 9.373 9.373 24.569 0 33.941l-80 79.984c-15.01 15.01-40.971 4.49-40.971-16.971V416h-58.785a12.004 12.004 0 0 1-8.773-3.812l-70.556-75.596 53.333-57.143L352 336h32v-39.981c0-21.438 25.943-31.998 40.971-16.971l80 79.981zM12 176h84l52.781 56.551 53.333-57.143-70.556-75.596A11.999 11.999 0 0 0 122.785 96H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12zm372 0v39.984c0 21.46 25.961 31.98 40.971 16.971l80-79.984c9.373-9.373 9.373-24.569 0-33.941l-80-79.981C409.943 24.021 384 34.582 384 56.019V96h-58.785a12.004 12.004 0 0 0-8.773 3.812L96 336H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h110.785c3.326 0 6.503-1.381 8.773-3.812L352 176h32z",
+          ],
+          "iconName": "random",
+          "prefix": "fas",
+        }
+      }
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size={null}
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
     Random Verb
-  </a>
-  <div
-    className="navbar-nav"
-    onKeyDown={[Function]}
+  </NavbarBrand>
+  <Nav
+    fill={false}
+    justify={false}
   >
-    <form
-      className="form-inline"
+    <Form
+      inline={true}
     >
-      <button
-        className="btn btn-light"
+      <Button
+        active={false}
         disabled={false}
+        id="darkModeButton"
         onClick={[Function]}
-        type="button"
+        variant="light"
       >
-        <svg
-          aria-hidden="true"
-          className="svg-inline--fa fa-adjust fa-w-16 "
-          data-icon="adjust"
-          data-prefix="fas"
-          focusable="false"
-          role="img"
-          style={Object {}}
-          viewBox="0 0 512 512"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"
-            fill="currentColor"
-            style={Object {}}
-          />
-        </svg>
-      </button>
-    </form>
-  </div>
-</nav>
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                512,
+                512,
+                Array [],
+                "f042",
+                "M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z",
+              ],
+              "iconName": "adjust",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          swapOpacity={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </Button>
+    </Form>
+  </Nav>
+</Navbar>
 `;

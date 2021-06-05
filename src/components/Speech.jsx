@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faVolumeUp } from '@fortawesome/free-solid-svg-icons'
 
-const Speach = ({
+const Speech = ({
     text,
     volume = 0.5,
     lang = 'en-US'
@@ -22,10 +22,10 @@ const Speach = ({
     )
 }
 
-Speach.propTypes = {
+Speech.propTypes = {
     text: PropTypes.string.isRequired,
     volume: PropTypes.number,
     lang: PropTypes.string,
 }
 
-export default Speach;
+export default Speech;
