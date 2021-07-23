@@ -10,7 +10,8 @@ const darkProps = {
     "pastParticiple": "Woken up",
     "meaning": "Despertar",
     "finalSound": "",
-    "darkMode": true
+    "darkMode": true,
+    "example": "I woke up when the rooster crowed."
 }
 
 describe('When src/components/Table.jsx is used', () => {

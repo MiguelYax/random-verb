@@ -57,6 +57,19 @@ exports[`When src/components/Table.jsx is used should render a table component 1
         />
       </td>
     </tr>
+    <tr>
+      <td>
+        Example
+      </td>
+      <td>
+        I woke up when the rooster crowed.
+      </td>
+      <td>
+        <Speech
+          text="I woke up when the rooster crowed."
+        />
+      </td>
+    </tr>
   </tbody>
 </ForwardRef>
 `;
@@ -126,6 +139,19 @@ exports[`When src/components/Table.jsx is used should render light mode and rend
         colSpan="2"
       >
         T
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Example
+      </td>
+      <td>
+        I woke up when the rooster crowed.
+      </td>
+      <td>
+        <Speech
+          text="I woke up when the rooster crowed."
+        />
       </td>
     </tr>
   </tbody>
