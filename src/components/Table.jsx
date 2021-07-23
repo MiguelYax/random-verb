@@ -5,7 +5,7 @@ import classnames from 'classnames';
 import Speach from './Speech';
 
 
-const CustomTable = ({ verb, past, pastParticiple, meaning, finalSound, darkMode }) => {
+const CustomTable = ({ verb, past, pastParticiple, meaning, finalSound, darkMode, example }) => {
     const textClassNames = classnames({
         'text-light': darkMode,
         'text-primary': !darkMode
@@ -24,11 +24,11 @@ const CustomTable = ({ verb, past, pastParticiple, meaning, finalSound, darkMode
                     <td>{verb}</td>
                     <td><Speach text={verb} /></td>
                 </tr>
-                <tr>
+               {past && <tr>
                     <td>Past</td>
                     <td>{past}</td>
                     <td><Speach text={past} /></td>
-                </tr>
+                </tr>}
                 {pastParticiple &&
                     <tr>
                         <td>Past participle</td>
@@ -40,6 +40,13 @@ const CustomTable = ({ verb, past, pastParticiple, meaning, finalSound, darkMode
                     <tr>
                         <td>Final sound</td>
                         <td colSpan="2">{finalSound}</td>
+                    </tr>
+                }
+                {example &&
+                    <tr>
+                        <td>Example</td>
+                        <td>{example}</td>
+                        <td><Speach text={example} /></td>
                     </tr>
                 }
             </tbody>
@@ -54,6 +61,7 @@ CustomTable.propTypes = {
     pastParticiple: PropTypes.string,
     meaning: PropTypes.string,
     finalSound: PropTypes.string,
+    example: PropTypes.string,
     darkMode: PropTypes.bool,
 }
 
