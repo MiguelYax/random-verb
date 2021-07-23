@@ -1,4 +1,7 @@
-import verbs from './verb.json';
+import regularVerbs from '../../data/regularVerbs.json';
+import iregularVerbs from '../../data/iregularVerbs.json'
+
+const verbs = [...regularVerbs, ...iregularVerbs];
 
 const len = verbs.length;
 

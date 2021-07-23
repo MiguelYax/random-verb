@@ -1,0 +1,702 @@
+[
+    {
+        "verb": "Arise",
+        "past": "Arose",
+        "pastParticiple": "Arisen",
+        "meaning": "Elevarse, Surgir, Originarse",
+        "finalSound": ""
+    },
+    {
+        "verb": "Awake",
+        "past": "Awoke",
+        "pastParticiple": "Awoken",
+        "meaning": "Despertar, mover, exitar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Bear",
+        "past": "Bore",
+        "pastParticiple": "Born",
+        "meaning": "Soportar, sostener, tolerar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Beat",
+        "past": "Beat",
+        "pastParticiple": "Beaten",
+        "meaning": "Batir, revolver, golpear",
+        "finalSound": ""
+    },
+    {
+        "verb": "Become",
+        "past": "Became",
+        "pastParticiple": "Become",
+        "meaning": "Hacerse, convertirse en",
+        "finalSound": ""
+    },
+    {
+        "verb": "Begin",
+        "past": "Began",
+        "pastParticiple": "Begun",
+        "meaning": "Empezar, iniciar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Bend",
+        "past": "Bent",
+        "pastParticiple": "Bent",
+        "meaning": "Doblar, inclinar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Bet",
+        "past": "Bet",
+        "pastParticiple": "Bet",
+        "meaning": "Apostar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Bind",
+        "past": "Bound",
+        "pastParticiple": "Bound",
+        "meaning": "Atar, unir, enlazar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Bite",
+        "past": "Bit",
+        "pastParticiple": "Bitten",
+        "meaning": "Morder",
+        "finalSound": ""
+    },
+    {
+        "verb": "Blow",
+        "past": "Blew",
+        "pastParticiple": "Blown",
+        "meaning": "Soplar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Break",
+        "past": "Broke",
+        "pastParticiple": "Broken",
+        "meaning": "Quebrar, partir, romper",
+        "finalSound": ""
+    },
+    {
+        "verb": "Bring",
+        "past": "Brought",
+        "pastParticiple": "Brought",
+        "meaning": "Traer, llevar, conducir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Build",
+        "past": "Built",
+        "pastParticiple": "Built",
+        "meaning": "Construir, edificar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Burn",
+        "past": "Burnt",
+        "pastParticiple": "Burnt",
+        "meaning": "Quemar, incendear",
+        "finalSound": ""
+    },
+    {
+        "verb": "Burst",
+        "past": "Burst",
+        "pastParticiple": "Burst",
+        "meaning": "Romper, reventar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Buy",
+        "past": "Bought",
+        "pastParticiple": "Bought",
+        "meaning": "Compar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Catch",
+        "past": "Caught",
+        "pastParticiple": "Caught",
+        "meaning": "Coger, atrapar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Choose",
+        "past": "Chose",
+        "pastParticiple": "Chosen",
+        "meaning": "Escoger, elegir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Cling",
+        "past": "Clung",
+        "pastParticiple": "Clung",
+        "meaning": "Asirse, adherirse, pegarse",
+        "finalSound": ""
+    },
+    {
+        "verb": "Come",
+        "past": "Came",
+        "pastParticiple": "Come",
+        "meaning": "Venir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Cost",
+        "past": "Cost",
+        "pastParticiple": "Cost",
+        "meaning": "Costar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Creep",
+        "past": "Crept",
+        "pastParticiple": "Crept",
+        "meaning": "Arrastrarse, pegarse",
+        "finalSound": ""
+    },
+    {
+        "verb": "Cut",
+        "past": "Cut",
+        "pastParticiple": "Cut",
+        "meaning": "Cortar, dividir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Deal",
+        "past": "Dealt",
+        "pastParticiple": "Dealt",
+        "meaning": "Tratar, tener que referirse",
+        "finalSound": ""
+    },
+    {
+        "verb": "Dig",
+        "past": "Dug",
+        "pastParticiple": "Dug",
+        "meaning": "Cavar, ahondar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Do",
+        "past": "Did",
+        "pastParticiple": "Done",
+        "meaning": "",
+        "finalSound": ""
+    },
+    {
+        "verb": "Draw",
+        "past": "Drew",
+        "pastParticiple": "Drawn",
+        "meaning": "Dibujar, atraer",
+        "finalSound": ""
+    },
+    {
+        "verb": "Drink",
+        "past": "Drank",
+        "pastParticiple": "Drunk",
+        "meaning": "Beber",
+        "finalSound": ""
+    },
+    {
+        "verb": "Drive",
+        "past": "Drove",
+        "pastParticiple": "Driven",
+        "meaning": "Conducir, llevar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Fall",
+        "past": "Fell",
+        "pastParticiple": "Fallen",
+        "meaning": "Caer, Disminuir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Feed",
+        "past": "Fed",
+        "pastParticiple": "Fed",
+        "meaning": "Alimentar, nutrir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Feel",
+        "past": "Felt",
+        "pastParticiple": "Felt",
+        "meaning": "Sentir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Fight",
+        "past": "Fought",
+        "pastParticiple": "Fought",
+        "meaning": "Pelear, convatir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Find out",
+        "past": "Found out",
+        "pastParticiple": "Found out",
+        "meaning": "Encontrar, descubir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Flee",
+        "past": "Fled",
+        "pastParticiple": "Fled",
+        "meaning": "Escapar, huir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Fly",
+        "past": "Flew",
+        "pastParticiple": "Flown",
+        "meaning": "Volar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Forbid",
+        "past": "Forbade",
+        "pastParticiple": "Forbiden",
+        "meaning": "Prohibir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Foresee",
+        "past": "Foresaw",
+        "pastParticiple": "Foreseen",
+        "meaning": "Prever, prevenir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Forget",
+        "past": "Forgot",
+        "pastParticiple": "Forgotten",
+        "meaning": "Olvidar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Freeze",
+        "past": "Froze",
+        "pastParticiple": "Frozen",
+        "meaning": "Congelar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Get",
+        "past": "Got",
+        "pastParticiple": "Gotten",
+        "meaning": "Logar, obtener, conseguir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Give",
+        "past": "Gave",
+        "pastParticiple": "Given",
+        "meaning": "Dar, conceder",
+        "finalSound": ""
+    },
+    {
+        "verb": "Go",
+        "past": "Went",
+        "pastParticiple": "Gone",
+        "meaning": "Ir, funcionar, resultar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Grind",
+        "past": "Ground",
+        "pastParticiple": "Ground",
+        "meaning": "Moler,triturar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Grow",
+        "past": "Grew",
+        "pastParticiple": "Grown",
+        "meaning": "Crecer, cultivar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Hang",
+        "past": "Hung",
+        "pastParticiple": "Hung",
+        "meaning": "Colgar, suspender",
+        "finalSound": ""
+    },
+    {
+        "verb": "Have",
+        "past": "Had",
+        "pastParticiple": "Had",
+        "meaning": "Tener, haber",
+        "finalSound": ""
+    },
+    {
+        "verb": "Hear",
+        "past": "Heard",
+        "pastParticiple": "Heard",
+        "meaning": "Oir, escuchar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Hide",
+        "past": "Hid",
+        "pastParticiple": "Hidden",
+        "meaning": "Ocultar, encubrir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Hit",
+        "past": "Hit",
+        "pastParticiple": "Hit",
+        "meaning": "Pegar, golpear, acertar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Hold",
+        "past": "Held",
+        "pastParticiple": "Held",
+        "meaning": "Sostener, mantener",
+        "finalSound": ""
+    },
+    {
+        "verb": "Hurt",
+        "past": "Hurt",
+        "pastParticiple": "Hurt",
+        "meaning": "Herir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Keep",
+        "past": "Kept",
+        "pastParticiple": "Kept",
+        "meaning": "Mantener, guardar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Know",
+        "past": "Knew",
+        "pastParticiple": "Known",
+        "meaning": "Conocer, saber",
+        "finalSound": ""
+    },
+    {
+        "verb": "Lay",
+        "past": "Laid",
+        "pastParticiple": "Laid",
+        "meaning": "Poner, colocar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Lead",
+        "past": "Led",
+        "pastParticiple": "Led",
+        "meaning": "Guiar, llevar, conducir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Lean",
+        "past": "Leant",
+        "pastParticiple": "Leant",
+        "meaning": "Inclinar, apoyarse",
+        "finalSound": ""
+    },
+    {
+        "verb": "Learn",
+        "past": "Learnt",
+        "pastParticiple": "Learnt",
+        "meaning": "Aprender, saber",
+        "finalSound": ""
+    },
+    {
+        "verb": "Leave",
+        "past": "Left",
+        "pastParticiple": "Left",
+        "meaning": "Dejar, irse",
+        "finalSound": ""
+    },
+    {
+        "verb": "Lend",
+        "past": "Lent",
+        "pastParticiple": "Lent",
+        "meaning": "Pestar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Let",
+        "past": "Let",
+        "pastParticiple": "Let",
+        "meaning": "Permitir, conceder",
+        "finalSound": ""
+    },
+    {
+        "verb": "Lie",
+        "past": "Lied",
+        "pastParticiple": "Lied",
+        "meaning": "Mentir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Light",
+        "past": "Lit",
+        "pastParticiple": "Lit",
+        "meaning": "Encender, alumbar, iluminar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Lose",
+        "past": "Lost",
+        "pastParticiple": "Lost",
+        "meaning": "Perder, malgastar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Make",
+        "past": "Made",
+        "pastParticiple": "Made",
+        "meaning": "Hacer, producir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Mean",
+        "past": "Meant",
+        "pastParticiple": "Meant",
+        "meaning": "Significar, querer decir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Meet",
+        "past": "Met",
+        "pastParticiple": "Met",
+        "meaning": "Encontrarse, Conocer",
+        "finalSound": ""
+    },
+    {
+        "verb": "Melt",
+        "past": "Melted",
+        "pastParticiple": "Molten",
+        "meaning": "Derretir, fundir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Mistake",
+        "past": "Mistook",
+        "pastParticiple": "Mistaken",
+        "meaning": "Equivocarse, errar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Misunderstand",
+        "past": "Misunderstood",
+        "pastParticiple": "Misunderstood",
+        "meaning": "Entender mal",
+        "finalSound": ""
+    },
+    {
+        "verb": "Overcome",
+        "past": "Overcame",
+        "pastParticiple": "Overcame",
+        "meaning": "Vencer, superar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Pay",
+        "past": "Paid",
+        "pastParticiple": "Paid",
+        "meaning": "Pagar, recompensar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Put",
+        "past": "Put",
+        "pastParticiple": "Put",
+        "meaning": "Poner, colocar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Read",
+        "past": "Read",
+        "pastParticiple": "Read",
+        "meaning": "Leer, Marcar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Rebuild",
+        "past": "Rebuilt",
+        "pastParticiple": "Rebuilt",
+        "meaning": "Reconstruir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Rid",
+        "past": "Rid",
+        "pastParticiple": "Rid",
+        "meaning": "Liberarse, zafarse",
+        "finalSound": ""
+    },
+    {
+        "verb": "Ride",
+        "past": "Rode",
+        "pastParticiple": "Ridden",
+        "meaning": "Rodar, funcionar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Ring",
+        "past": "Rang",
+        "pastParticiple": "Rung",
+        "meaning": "Tocar, sonar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Rise",
+        "past": "Rose",
+        "pastParticiple": "Risen",
+        "meaning": "Ascender, levantar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Run",
+        "past": "Ran",
+        "pastParticiple": "Run",
+        "meaning": "Correr, funcionar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Saw",
+        "past": "Sawed",
+        "pastParticiple": "Sawn",
+        "meaning": "Aserar, cortar con sierra",
+        "finalSound": ""
+    },
+    {
+        "verb": "Say",
+        "past": "Said",
+        "pastParticiple": "Said",
+        "meaning": "Decir, afirmar",
+        "finalSound": ""
+    },
+    {
+        "verb": "See",
+        "past": "Saw",
+        "pastParticiple": "Seen",
+        "meaning": "Ver, observar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Seek",
+        "past": "Sought",
+        "pastParticiple": "Sought",
+        "meaning": "Buscar, solicitar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Sell",
+        "past": "Sold",
+        "pastParticiple": "Sold",
+        "meaning": "Vender",
+        "finalSound": ""
+    },
+    {
+        "verb": "Send",
+        "past": "Sent",
+        "pastParticiple": "Sent",
+        "meaning": "Enviar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Set",
+        "past": "Set",
+        "pastParticiple": "Set",
+        "meaning": "Instalar, colocar, fijar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Shake",
+        "past": "Shook",
+        "pastParticiple": "Shaken",
+        "meaning": "Sacudir, lanzar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Shed",
+        "past": "Shed",
+        "pastParticiple": "Shed",
+        "meaning": "Derramar, dejar caer",
+        "finalSound": ""
+    },
+    {
+        "verb": "Shine",
+        "past": "Shone",
+        "pastParticiple": "Shone",
+        "meaning": "Brillar, sobresalir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Shoot",
+        "past": "Shot",
+        "pastParticiple": "Shot",
+        "meaning": "Disparar, lanzar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Show",
+        "past": "Showed",
+        "pastParticiple": "Showed",
+        "meaning": "Mostrar, probar, demostrar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Shrink",
+        "past": "Shrank",
+        "pastParticiple": "Shrunk",
+        "meaning": "Encogerse, disminuir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Shut",
+        "past": "Shut",
+        "pastParticiple": "Shut",
+        "meaning": "Cerrar, impedir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Sing",
+        "past": "Sang",
+        "pastParticiple": "Sung",
+        "meaning": "Cantar",
+        "finalSound": ""
+    },
+    {
+        "verb": "Sink",
+        "past": "Sank",
+        "pastParticiple": "Sunk",
+        "meaning": "Hundir, Sumergir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Sit",
+        "past": "Sat",
+        "pastParticiple": "Sat",
+        "meaning": "Sentarse, reunirse",
+        "finalSound": ""
+    },
+    {
+        "verb": "Sleep",
+        "past": "Slept",
+        "pastParticiple": "Slept",
+        "meaning": "Dormir",
+        "finalSound": ""
+    },
+    {
+        "verb": "Slide",
+        "past": "Slid",
+        "pastParticiple": "Slidden",
+        "meaning": "Resbalar, deslizar",
+        "finalSound": ""
+    }
+]
