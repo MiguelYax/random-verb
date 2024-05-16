@@ -1,7 +1,7 @@
 module.exports = {
     collectCoverage: true,
-    "moduleNameMapper": {
+    moduleNameMapper: {
         "^.+\\.(css|less|scss)$": "babel-jest"
     },
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    testEnvironment: 'jest-environment-jsdom'
 }

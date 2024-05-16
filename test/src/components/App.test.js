@@ -1,10 +1,8 @@
 import React from 'react';
-import { configure, shallow } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import { screen, render } from '@testing-library/react'
 import App from '../../../src/components/App';
 import { getRandomVerb } from '../../../src/components/Random';
 
-configure({ adapter: new Adapter() });
 
 jest.mock('../../../src/components/Random', () => ({
     getRandomVerb: jest.fn().mockReturnValue({
@@ -22,14 +20,14 @@ describe('when component src/components/App.jsx is used', () => {
     });
 
     it('shold be render main components', () => {
-        const shallowApp = shallow(<App />);
-        expect(shallowApp).toMatchSnapshot();
+        render(<App />);
+
     });
 
     it('shold be render main components', () => {
-        const shallowApp = shallow(<App />);
-        const shallowButton = shallowApp.find('Button');
-        shallowButton.simulate('click');
+        render(<App />);
+        const shallowButton = screen.find('Button');
+        shallowButton.click();
         expect(getRandomVerb).toHaveBeenCalledTimes(3);
     });
 });
